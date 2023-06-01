@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1024px;
+    height: 678px;
+    font-family: Roboto;
+    background-color: #F3F3F3;
+}
+header {
+    background-color: #222222;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+header img {
+    height: 80px;
+    position: relative;
+    left: 20px;
+}
+header nav ul {
+    width: 285px;
+    position: relative;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 428px;
+    display: flex;
+}
+main section {
+    background-color: white;
+    width: 48%;
+    height: 80%;
+    border-radius: 5px;
+    position: relative;
+}
+.uno {
+    background-image: url('../img/delivery.jpg');
+}
+.dos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h2 {
+    color: red;
+}
+.uno h2 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.dos h2 {
+    text-align: center;
+    width: 100%;
+}
+.top5 {
+    height: 75%;
+    width: 78%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top5 div {
+    display: flex;
+    height:70% ;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top5 div ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 0.7;
+    font-size: 16px;
+    font-weight: 700;
+}
+footer {
+    background-color: #222222;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul {
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left: 20px;
+    color: white;
+}
+footer img {
+    position: relative;
+    right: 40px;
+}
